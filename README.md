@@ -1,4 +1,4 @@
-React Router Tutorial
+React Router Tutorial：React Router教程
 =====================
 
 Quick lessons for getting up-to-speed with React Router.
