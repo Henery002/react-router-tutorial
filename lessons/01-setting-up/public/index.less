@@ -1,0 +1,25 @@
+// index.less file
+@bgcolor1: #e4393c;
+@bgcolor2: #f89b38;
+@color1: #e4393c;
+@color2: #f89b38;
+
+#root{
+  margin: 50px auto;
+  padding: 20px 0 200px 0;
+  background-color: #ddd;
+  p.date{
+    color: @color1;
+    > span{
+      color: @color1;
+      a{
+        color: @color2;
+        &:hover{
+          text-underline: none;
+          font-weight: bold;
+          color: #00f;
+        }
+      }
+    }
+  }
+}
